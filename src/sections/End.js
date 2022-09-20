@@ -1,5 +1,7 @@
-import React from 'react'
+import React  from "react";
 import styled from 'styled-components'
+
+
 
 const Section = styled.section`
 width: 100vw;
@@ -13,9 +15,9 @@ background-color: var(--white);
 
 `
 
-const Link = styled.ul`
+const Links = styled.ul`
 position: absolute;
-top:50%;
+top:55%;
 left: 50%;
 transform: translate(-50%,-50%);
 list-style: none;
@@ -48,7 +50,7 @@ li{
 
 const Title = styled.h1`
 position: absolute;
-height:100%;
+top: 1%;
 text-transform: uppercase;
 font-size: var(--fontBig);
 z-index:1;
@@ -72,26 +74,23 @@ const End = () => {
       <Title>
         Detail
       </Title>
-        <Link>
-        <li><span style={{fontWeight: 'bold'}}>&nbsp; 
-    <a href="https://erika-music.netlify.app/" Link style={{ color: 'inherit', textDecoration: 'inherit'}}
->Album Erika
+        <Links>
+        <li><span style={{fontWeight: 'bold'}}>
+    <a href="https://erika-music.netlify.app/" rel="noreferrer" target="_blank">Album Erika
     </a></span></li>
-        <li><span style={{fontWeight: 'bold'}}>&nbsp; 
-    <a href="https://www.instagram.com/indonesiachristiancancer_ic3/" Link style={{ color: 'inherit', textDecoration: 'inherit'}}
->Ucapkan Selamat
+        <li><span style={{fontWeight: 'bold'}}>
+    <a href="https://www.instagram.com/indonesiachristiancancer_ic3/" rel="noreferrer" target="_blank">Ucapkan Selamat
     </a></span></li> 
-        <li><span style={{fontWeight: 'bold'}}>&nbsp; 
-    <a href="https://www.google.com/search?sxsrf=ALiCzsbr6c7GIgCAqKkhLhlX-yJGwlQisA:1663645344955&q=restaurant+mahameru&sa=X&ved=2ahUKEwjwv8XuuaL6AhXAcWwGHav-DAkQ7xYoAHoECAIQNw" Link style={{ color: 'inherit', textDecoration: 'inherit'}}
->Petunjuk Tempat
+        <li><span style={{fontWeight: 'bold'}}>
+    <a href="https://www.google.com/search?q=mahameru+restaurant&oq=mahameru+restaurant&aqs=chrome..69i57.3532j0j9&sourceid=chrome&ie=UTF-8" rel="noreferrer" target="_blank">Petunjuk Tempat
     </a></span></li> 
-        <li><span style={{fontWeight: 'bold'}}>&nbsp; 
-    <a href="https://ic3filia.com" Link style={{ color: 'inherit', textDecoration: 'inherit'}}
->Website Renungan IC3
+    <li><span style={{fontWeight: 'bold'}}>
+    <a href="https://ic3filia.com/" rel="noreferrer" target="_blank">Renungan IC3
     </a></span></li> 
-        </Link>
+        </Links>
     </Section>
   )
 }
+
 
 export default End

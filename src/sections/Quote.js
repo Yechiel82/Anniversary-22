@@ -101,10 +101,10 @@ useLayoutEffect(() => {
 return (
     <Section ref={sectionRef}>
         <TextContainer>
-        <Text delay="0s"><span>&#8220; There is no more</span></Text>
-        <Text delay="0.4s"><span>&nbsp;&nbsp;&nbsp;lovely, friendly and charming relationship,</span></Text>
-        <Text delay="0.8s"><span>&nbsp;&nbsp;&nbsp;communion or company than a good marriage.&#8221;</span></Text>
-        <Text delay="1.2s"><span className='author'>&#x23AF; Martin Luther</span></Text>
+        <Text delay="0s"><span>&#8220; Real love stories</span></Text>
+        <Text delay="0.4s"><span>&nbsp;&nbsp;&nbsp;never have</span></Text>
+        <Text delay="0.8s"><span>&nbsp;&nbsp;&nbsp;endings.&#8221;</span></Text>
+        <Text delay="1.2s"><span className='author'>&#x23AF; Richard Bach</span></Text>
         </TextContainer>
     </Section>
   )
