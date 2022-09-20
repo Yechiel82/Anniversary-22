@@ -76,40 +76,15 @@ img{
 }
 
 `
-const Text = styled.div`
-font-size: var(--fontxs);
-color : (var-greyLight);
-width: 30%;
-height:40vh;
 
-display:flex;
-flex-direction: column;
-justify-content: center;
-
-span{
-    margin: 0.2rem 0;
-    padding-left: 2rem;
-}
-@media screen and (max-width: 70em){
-    display:none;
-}
-`
 
 const ProcessorSection = () => {
   return (
     <Section>
-        <Title>Pasangan Yang Berbahagia</Title>
+        <Title>Pasangan Berbahagia</Title>
         <Processor>
             <img src={a15} alt="foto pasangan"></img>   
-        </Processor>
-        <Text>
-            <span>
-            </span>
-            <span>
-            </span>
-        </Text>
-        
-        
+        </Processor>   
     </Section>
   )
 }

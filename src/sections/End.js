@@ -28,7 +28,7 @@ padding: 0.5rem;
 width: 90%;
 li{
   width:100%;
-  height: 5rem;
+  height: 3rem;
   background-color: var(--dark);
   background-image: linear-gradient(-270deg, var(--gradient));
   text-align: center;
@@ -75,7 +75,10 @@ const End = () => {
         Detail
       </Title>
         <Links>
-        <li><span style={{fontWeight: 'bold'}}>
+
+      <li><span style={{fontWeight: 'bold'}}>
+    <a href="https://ic3-homepage.netlify.app/donate.html" rel="noreferrer" target="_blank">Persembahan Kasih</a></span></li>
+      <li><span style={{fontWeight: 'bold'}}>
     <a href="https://erika-music.netlify.app/" rel="noreferrer" target="_blank">Album Erika
     </a></span></li>
         <li><span style={{fontWeight: 'bold'}}>
@@ -85,8 +88,8 @@ const End = () => {
     <a href="https://www.google.com/search?q=mahameru+restaurant&oq=mahameru+restaurant&aqs=chrome..69i57.3532j0j9&sourceid=chrome&ie=UTF-8" rel="noreferrer" target="_blank">Petunjuk Tempat
     </a></span></li> 
     <li><span style={{fontWeight: 'bold'}}>
-    <a href="https://ic3filia.com/" rel="noreferrer" target="_blank">Renungan IC3
-    </a></span></li> 
+    <a href="https://ic3filia.com/" rel="noreferrer" target="_blank">Renungan IC3</a>
+    </span></li> 
         </Links>
     </Section>
   )
