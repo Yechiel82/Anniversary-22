@@ -58,7 +58,7 @@ const glow = keyframes`
 `
 
 const Processor =styled.div`
-width: 25%;
+width: 45%;
 position: absolute;
 top: 50%;
 left:50%;
